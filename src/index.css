@@ -1,3 +1,12 @@
+:root {
+  --yellow-background: #e9d5a1;
+  --dark-background:#494949;
+  --dark-black: #212529;
+  --light-black:#353239;
+  --font-raleway:  'Raleway', sans-serif;
+  --font-libre:  'Libre Franklin', sans-serif;
+  }
+
 body {
   margin: 0;
   font-family:
@@ -14,16 +23,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: var(--yellow-background);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
 }
 
 .img-logo {
@@ -42,7 +48,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1rem 2rem;
 }
 
 .left {
@@ -61,3 +66,21 @@ nav {
 .nav-link:nth-child(2) {
   border-right: 1px solid blue;
 }
+
+/* THEME DARK*/
+
+.dark-theme .main-container, .dark-theme .lang-container {
+  background-color: var(--dark-background);
+  color: #fff;
+}
+
+.dark-theme h1{
+  color: #fff;
+}
+
+/* THEME Light*/
+
+.light-theme {
+  background-color: var(--yellow-background);
+}
+

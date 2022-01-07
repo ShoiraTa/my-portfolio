@@ -1,0 +1,156 @@
+.main-container{
+  height: 663px;
+
+}
+
+.github-svg{
+  fill:#151513;
+  color:#fff;
+  position:absolute;
+  top:0;
+  border:0;
+  left:0;
+  transform:scale(-1,1);
+  z-index:9999
+}
+
+svg {
+  overflow: hidden;
+}
+
+.banner{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-icon{
+  transform: rotate(360deg);
+}
+
+.png-holder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coding-png{
+    width: 120px;
+}
+
+.octo-arm {
+  transform-origin: 130px 106px;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+@keyframes octocat-wave {
+  0%, 100% {
+      transform: rotate(0)
+  }
+  20%,
+  60% {
+      transform: rotate(-25deg)
+  }
+  40%,
+  80% {
+      transform: rotate(10deg)
+  }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+      animation: none
+  }
+  .github-corner .octo-arm {
+      animation: octocat-wave 560ms ease-in-out
+  }
+}
+
+.name{
+  text-align: center;
+  color: #353239;
+  font-size: 150%;
+  font-weight: 600!important;
+}
+
+.name h1{
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.title-styles, .title-styles span{
+  font-family: var(--font-raleway);
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 8px ;
+}
+
+.react-customSwitch{
+  height: 40px; 
+  width: 52px; 
+  position: absolute; 
+  opacity: 1; 
+  right: 0px; 
+  top: 0px; 
+  pointer-events: none; 
+  transition: opacity 0.25s ease 0s;}
+
+  .react-switch-bg{
+    height: 40px; 
+    width: 90px; 
+    margin: 0px; 
+    position: relative; 
+    background: rgb(186, 170, 128); 
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: background 0.25s ease 0s;
+  }
+
+  .react-svg-container {
+    height: 40px; width: 52px;
+     position: relative; 
+     opacity: 0; 
+     pointer-events: none; 
+     transition: opacity 0.25s ease 0s;
+  }
+
+  .iconify-1{
+    display: block; 
+    height: 100%; 
+    font-size: 25px; 
+    text-align: end; 
+    margin-left: 10px; 
+    color: rgb(53, 50, 57); 
+    transform: rotate(360deg);
+  }
+
+  .iconify-2{
+    display: block; 
+    height: 100%; 
+    font-size: 25px; 
+    text-align: end; 
+    margin-left: 20px; 
+    color: rgb(53, 50, 57); 
+    transform: rotate(360deg);
+  }
+
+  .react-switch-handle{
+    height: 38px; width: 38px; background: rgb(255, 255, 255); display: inline-block; cursor: pointer; border-radius: 50%; position: absolute; transform: translateX(51px); top: 1px; outline: 0px; border: 0px; transition: background-color 0.25s ease 0s, transform 0.25s ease 0s, box-shadow 0.15s ease 0s;
+  }
+
+  .title-container{
+    margin-bottom: 1rem;
+  }
+
+  .lang-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iconify{
+    cursor: pointer;
+  }
