@@ -1,0 +1,46 @@
+.secton-aboutme{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #fff;
+  height: 500px;
+  align-items: center;
+}
+
+.secton-aboutme h1{
+  margin: 0;
+}
+.left-section{
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  margin: 55px 75px 30px;
+  padding: 15px 15px 30px;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+}
+.image-container{
+  background-image: url('../img/prof-pic.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 300px;
+}
+
+.aboutme-desc{
+  margin: 1rem;
+}
+
+@media (max-width: 600px) {
+  .secton-aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .left-section{
+    width: 100%;
+
+  }
+}

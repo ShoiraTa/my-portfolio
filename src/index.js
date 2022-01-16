@@ -8,7 +8,7 @@ import {
 
 // import App from './App';
 import store from './redux/store';
-import Banner from './components/Banner';
+import Main from './components/Main';
 import Myprofile from './components/Myprofile';
 
 ReactDOM.render(
@@ -17,7 +17,7 @@ ReactDOM.render(
       <Router>
         {/* <App /> */}
         <Routes>
-          <Route path="/" element={<Banner />} />
+          <Route path="/" element={<Main />} />
           <Route path="/myprofile" element={<Myprofile />} />
         </Routes>
       </Router>

@@ -31,7 +31,7 @@ function Banner() {
             <img className="coding-png" src={coding} alt="coding" />
           </div>
           <div className="name">
-            <h1>Shoira Shakir</h1>
+            <h1>Shoira Shakirova</h1>
           </div>
           <div className="title-container">
             <p className="title-styles">

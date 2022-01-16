@@ -4,6 +4,7 @@
     "es6": true,
     "jest": true
   },
+  
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -15,10 +16,23 @@
   "extends": ["airbnb", "plugin:react/recommended"],
   "plugins": ["react"],
   "rules": {
+    "max-len": "off",
+    "vue/max-len": [
+      "error",
+      {
+        "code": 300,
+        "template": 9000,
+        "ignoreTemplateLiterals": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true
+      }
+    ],
+    // "max-len": ["error", { "code": 320 }],
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "vue/max-attributes-per-line": "off"
   },
   "ignorePatterns": [
     "dist/",
