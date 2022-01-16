@@ -1,6 +1,6 @@
-# space-travelers
+# My Portfolio
 
-React/Redux project
+Built using React/Redux project
 
 
 ## Available Scripts

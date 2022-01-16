@@ -10,7 +10,7 @@ function Myprofile() {
       </div>
       <div className="aboutme-desc">
         <h1>About me</h1>
-        <p>👋 I&apos;m Shoira . I&apos;m working with newest front-end frameworks</p>
+        <p>👋 I&apos;m Shoira. I&apos;m working with newest front-end frameworks</p>
       </div>
     </div>
   );
