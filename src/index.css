@@ -6,7 +6,10 @@
   --font-raleway:  'Raleway', sans-serif;
   --font-libre:  'Libre Franklin', sans-serif;
   }
-
+  
+  *, :after, :before {
+    box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family:
@@ -74,13 +77,20 @@ nav {
   color: #fff;
 }
 
-.dark-theme h1{
+.dark-theme h1, .dark-theme p{
   color: #fff;
+}
+
+.dark-theme .section-about{
+  background-color: #7F7F7F;
 }
 
 /* THEME Light*/
 
 .light-theme {
   background-color: var(--yellow-background);
+}
+.light-theme .section-about{
+  background-color: #fff;
 }
 

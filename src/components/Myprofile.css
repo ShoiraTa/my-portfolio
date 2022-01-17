@@ -1,21 +1,30 @@
+/* About */
+.section-about {
+  padding-top: 3rem;
+}
+
 .secton-aboutme{
   display: grid;
   grid-template-columns: 1fr 2fr;
-  background-color: #fff;
-  height: 500px;
-  align-items: center;
+  min-height: 500px;
 }
 
-.secton-aboutme h1{
+.section-about h1, .section-skills h1{
   margin: 0;
+  font: 18px/24px "opensans-bold",sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #000;
+  text-align: center;
 }
+
 .left-section{
-  height: 350px;
+  height: 370px;
   display: flex;
   align-items: center;
   justify-content: center;
   display: inline-block;
-  margin: 55px 75px 30px;
+  margin: 50px 45px 30px;
   padding: 15px 15px 30px;
   box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
 }
@@ -23,24 +32,108 @@
   background-image: url('../img/prof-pic.jpg');
   background-position: center;
   background-size: cover;
-  width: 250px;
-  height: 300px;
+  height: 280px;
 }
 
 .aboutme-desc{
   margin: 1rem;
+  width: 90%;
+}
+
+.skills-icon{
+  font-size: 2.5rem;
+}
+
+.skills-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+.react-icon{
+  color: blueviolet;
+}
+.ruby-icon{
+  color: red;
+}
+.sql-icon{
+  color: blue;
+}
+
+/* Skills */
+.section-skills h1{
+  color: #fff;
+}
+.section-skills span{
+  color: #fff;
+  padding: 1rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-top: 4px;
+}
+.section-skills{
+  background-color: #000;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0 2rem;
+}
+
+.icons-container{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 3rem 1rem;
+  flex-wrap: wrap
+}
+
+.icon-card{
+  background-color: rgba(214, 211, 210, 0.116);
+  padding: 10px 10px 5px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icons-container .skills-icon{
+color: #fff;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  margin: 0;
+}
+@media (max-width: 900px) {
+  .icons-container{
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
 
 @media (max-width: 600px) {
+  /* About */
   .secton-aboutme{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
   }
-  .left-section{
-    width: 100%;
-
+  .name h1{
+    font-size: 1.7rem;
+  }
+  .title-styles, .title-styles span{
+    font-size: 1rem;
+  }
+  /* Skills */
+  .icons-container{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
