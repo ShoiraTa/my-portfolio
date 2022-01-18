@@ -4,9 +4,14 @@
 
 > This is my portfolio page that I built on react and redux.
 
-|                                                        mobile                                                        |                                                       desktop                                                        |
-| :------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: |
-| ![mobile (2)](https://user-images.githubusercontent.com/77038610/149923193-85ecbbc0-ea2c-4849-963e-26c322c05166.png) | ![mobile (3)](https://user-images.githubusercontent.com/77038610/149923200-4870ebd5-4990-45bb-a80e-be86393cd229.png) |
+mobile  | desktop
+------------- | -------------
+ ![mobile (2)](https://user-images.githubusercontent.com/77038610/149923467-78a4c412-0d43-464f-871c-1e3237b22b9c.png)   | ![mobile (3)](https://user-images.githubusercontent.com/77038610/149923440-ebb2ddcc-5c44-49ae-b264-9903f2c07527.png)
+
+
+
+This is a website that displaying an updated data about COVID cases in every country and in every region
+in the country if it was available.
 
 ## Built With
 
