@@ -316,7 +316,7 @@ button:hover{
   padding: 0 3rem 3rem;
 } */
 .container-form-left{
-  padding: 2rem
+  margin: 2rem
 }
 input, textarea{
   padding: 1rem;
@@ -450,6 +450,10 @@ display: flex;
 
 @media (max-width: 600px) {
   /* About */
+  .section-about h1 {
+    padding: 2rem 0;
+  }
+
   .secton-aboutme{
     display: flex;
     align-items: center;

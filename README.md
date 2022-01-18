@@ -1,31 +1,63 @@
-# My Portfolio
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Built using React/Redux project
+# My portfolio
+
+> Project COVID Cases for each country and its regions if it was available.
+
+ home page                                  |  details popup
+:------------------------------------------:|:---------------------------------------:
+![screenshot](./src/images/app_screenshot.png)  |  ![screenshot](./src/images/details.png)
+
+This is a website that displaying an updated data about COVID cases in every country and in every region
+in the country if it was available.
+
+## Built With
+
+- HTML5, CSS3, and ES6
+- React
+- Redux
+- git
+
+## Live Demo
+
+[Live Demo Link](https://covid-cases-shahier.herokuapp.com/)
+
+## Video Description
+
+[Video Link](https://www.loom.com/share/f64005f54edd4685b3dffc6ec60e34a3)
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+- go to the directory that you want to clone the repository in.
+- right click and choose Git Bash here.
+- type ```https://github.com/ShahierNashaat/react-capstone.git```.
+- run "npm install" and then "npm start"
 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Authors
 
-### `npm start`
+👤 **Shahier Nashaat**
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- GitHub: [@githubhandle](https://github.com/ShahierNashaat)
+- Twitter: [@twitterhandle](https://twitter.com/ShahierN)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shahier-nashaat-73519313a/)
+## 🤝 Contributing
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Contributions, issues, and feature requests are welcome!
 
-### `npm test`
+Feel free to check the [issues page](../../issues/).
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Show your support
 
-### `npm run build`
+Give a ⭐️ if you like this project!
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Acknowledgments
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- The design for this project was inspired by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio). The design can be found [here](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
