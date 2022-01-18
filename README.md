@@ -2,14 +2,11 @@
 
 # My portfolio
 
-> Project COVID Cases for each country and its regions if it was available.
+> This is my portfolio page that I built on react and redux.
 
- home page                                  |  details popup
-:------------------------------------------:|:---------------------------------------:
-![screenshot](./src/images/app_screenshot.png)  |  ![screenshot](./src/images/details.png)
-
-This is a website that displaying an updated data about COVID cases in every country and in every region
-in the country if it was available.
+|                                                        mobile                                                        |                                                       desktop                                                        |
+| :------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: |
+| ![mobile (2)](https://user-images.githubusercontent.com/77038610/149923193-85ecbbc0-ea2c-4849-963e-26c322c05166.png) | ![mobile (3)](https://user-images.githubusercontent.com/77038610/149923200-4870ebd5-4990-45bb-a80e-be86393cd229.png) |
 
 ## Built With
 
@@ -22,28 +19,24 @@ in the country if it was available.
 
 [Live Demo Link](https://covid-cases-shahier.herokuapp.com/)
 
-## Video Description
-
-[Video Link](https://www.loom.com/share/f64005f54edd4685b3dffc6ec60e34a3)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 - go to the directory that you want to clone the repository in.
 - right click and choose Git Bash here.
-- type ```https://github.com/ShahierNashaat/react-capstone.git```.
+- type `https://github.com/ShoiraTa/my-portfolio.git`.
 - run "npm install" and then "npm start"
-
-
 
 ## Authors
 
-👤 **Shahier Nashaat**
+👤 **Shoira**
 
-- GitHub: [@githubhandle](https://github.com/ShahierNashaat)
-- Twitter: [@twitterhandle](https://twitter.com/ShahierN)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shahier-nashaat-73519313a/)
+- GitHub: [@shoirata](https://github.com/shoirata)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shoira-tashpulatova-bab4a7122/)
+
+![Shoira's GitHub stats](https://github-readme-stats.vercel.app/api?username=shoirata&count_private=true&theme=dark&show_icons=true)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -53,10 +46,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- The design for this project was inspired by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio). The design can be found [here](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29).
 
 ## 📝 License
 

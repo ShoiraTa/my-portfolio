@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import {
-  SiJavascript, SiReact, SiRedux, SiJquery, SiHtml5, SiCss3, SiRuby, SiMysql, SiRubyonrails, SiGithub, SiHeroku, SiVisualstudiocode, SiWebpack,
+  SiJavascript, SiReact, SiRedux, SiHtml5, SiCss3, SiGithub, SiHeroku, SiVisualstudiocode, SiWebpack,
 } from 'react-icons/si';
 
 function Projects() {
-  const arr = [SiJavascript, SiReact, SiRedux, SiJquery, SiHtml5, SiCss3, SiRuby, SiMysql, SiRubyonrails, SiGithub, SiHeroku, SiVisualstudiocode];
-  console.log(arr);
-
   const [width, setWidth] = useState(1450);
   let isDesktop = true;
   const updateMedia = () => {

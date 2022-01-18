@@ -171,7 +171,7 @@ ul, p{
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px ) {
   .icons-container{
     grid-template-columns: repeat(5, 1fr);
   }
@@ -315,7 +315,7 @@ button:hover{
 /* .container-form{
   padding: 0 3rem 3rem;
 } */
-.container-form-left{
+form{
   margin: 2rem
 }
 input, textarea{
@@ -368,8 +368,11 @@ display: flex;
   font-size: 1.2rem;
 }
 
+.container-form-left p {
+  margin-left: 2rem;
+}
 
-@media (max-width: 900px) {
+@media (max-width: 900px)  {
   .laptop-img{
     height: 200px;
     width: 350px;
@@ -444,7 +447,12 @@ display: flex;
     display: flex;
     flex-direction: column;
   }
-
+  .project-container{
+    margin-bottom: 5rem;
+  }
+  .section-projects h1{
+    margin-bottom: 2rem;
+  }
 }
 
 
@@ -493,5 +501,8 @@ display: flex;
 
   .right-section-projects{
     min-height: 200px;
+  }
+  .container-form-right li{
+    margin: 0.2rem;
   }
 }
