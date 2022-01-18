@@ -1,7 +1,7 @@
 import React from 'react';
 import './Myprofile.css';
 import {
-  SiJavascript, SiReact, SiRedux, SiJquery, SiHtml5, SiCss3, SiRuby, SiMysql, SiRubyonrails, SiGithub, SiHeroku, SiVisualstudiocode,
+  SiJavascript, SiReact, SiRedux, SiJquery, SiHtml5, SiCss3, SiRuby, SiMysql, SiRubyonrails, SiGithub, SiHeroku, SiVisualstudiocode, SiWebpack, SiGit,
 } from 'react-icons/si';
 
 import { MdDevices } from 'react-icons/md';
@@ -57,6 +57,10 @@ function Skills() {
           <span>Github</span>
         </li>
         <li className="icon-card">
+          <SiGit className="skills-icon" />
+          <span>Git</span>
+        </li>
+        <li className="icon-card">
           <SiHeroku className="skills-icon" />
           <span>Heroku</span>
         </li>
@@ -67,6 +71,10 @@ function Skills() {
         <li className="icon-card">
           <MdDevices className="skills-icon" />
           <span>Responsive design</span>
+        </li>
+        <li className="icon-card">
+          <SiWebpack className="skills-icon" />
+          <span>Webpack</span>
         </li>
       </ul>
       <p>

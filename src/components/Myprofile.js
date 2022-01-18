@@ -3,6 +3,7 @@ import './Myprofile.css';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { FaReact } from 'react-icons/fa';
 import { DiRuby, DiMysql } from 'react-icons/di';
+
 import store from '../redux/store';
 
 function Myprofile() {

@@ -85,6 +85,31 @@ nav {
   background-color: #7F7F7F;
 }
 
+.dark-theme .section-projects {
+  background-color: #494949
+}
+
+.dark-theme  h2, .dark-theme  h1 {
+  color: #fff;
+}
+
+.dark-theme  .left-section-projects li{
+  color: #fff;
+}
+
+.dark-theme .section-experience{
+  background-color: #5b5b5b;
+}
+
+.dark-theme .section-experience p{
+  color: #5b5b5b;
+}
+.dark-theme .section-form{
+  background-color: #494949;
+}
+.dark-theme .section-form .container-form-right a{
+  color: #FFF;
+}
 /* THEME Light*/
 
 .light-theme {

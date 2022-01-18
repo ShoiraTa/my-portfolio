@@ -1,21 +1,25 @@
-/* About */
-.section-about {
-  padding-top: 3rem;
+h2{
+  margin: 0;
 }
-
+/* About */
 .secton-aboutme{
   display: grid;
   grid-template-columns: 1fr 2fr;
   min-height: 500px;
 }
 
-.section-about h1, .section-skills h1{
+.section-about h1, .section-skills h1, .section-projects h1, .section-experience h1, .section-form h1{
+  padding-top: 5%;
+  padding-bottom: 5%;
   margin: 0;
-  font: 18px/24px "opensans-bold",sans-serif;
+  font: 22px/24px "opensans-bold",sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #000;
   text-align: center;
+}
+
+.section-skills p{
+  color: #fff;
 }
 
 .left-section{
@@ -78,14 +82,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 0 2rem;
+  padding: 0rem 0 2rem;
 }
 
 .icons-container{
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(7, 1fr);
-  padding: 3rem 1rem;
+  grid-template-columns: repeat(8, 1fr);
+  padding: 0 1rem 2rem;
   flex-wrap: wrap
 }
 
@@ -109,14 +113,296 @@ li{
   list-style: none;
 }
 
-ul{
+ul, p{
   margin: 0;
+  padding: 0
 }
+@media (max-width: 1056px) {
+  .icons-container{
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
 @media (max-width: 900px) {
   .icons-container{
     grid-template-columns: repeat(5, 1fr);
   }
 }
+/* Projects */
+.section-projects h1{
+  padding-bottom:0;
+}
+.project-container{
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  padding: 4rem 1rem;
+}
+
+.project-container h2{
+   font-size: 2rem;
+   margin-bottom: 1rem;
+   text-transform: uppercase;
+}
+
+.project-container-left-sided{
+  grid-template-columns: 4fr 3fr;
+}
+
+.left-section-projects{
+  margin: 2rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.left-section-projects ul{
+  display: flex;
+  margin: 1.5rem 0;
+}
+
+ .section-projects h2{
+text-align: start;
+}
+
+.left-section-projects li{
+  padding: 0.2rem;
+}
+
+.icon-projects{
+  font-size: 1.5rem;
+
+}
+
+.right-section-projects{
+  position: relative;
+  max-width: 600px;
+  margin: 1rem 0;
+  min-height: 300px;
+}
+
+.laptop-img{
+  background-image: url('../img/covidCasesLaptop.png');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 510px;
+  position: absolute;
+}
+
+.phone-img{
+  background-image: url('../img/covidCases-mobile.png');
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  width: 135px;
+  position: absolute;
+  right: 7%;
+  top: 40px;
+}
+
+.laptop-img-pinch{
+  background-image: url('../img/pinch-desk.png');
+}
+
+.phone-img-pinch{
+  background-image: url('../img/pinch-mob.png');
+}
+
+.laptop-img-expenses{
+  background-image: url('../img/expences-desk.png');
+}
+
+.phone-img-expenses{
+  background-image: url('../img/expences-mob.png');
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  letter-spacing: 1px;
+  height: 100%;
+  width: 100%;
+}
+
+button{
+  background-color: #AE944F;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  margin: 2rem 0.5rem 0 0;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  border: 1px solid #AE944F;
+}
+
+button:hover{
+  background-color: #ae954fa9;
+  border: 1px solid black;
+}
+/* Experience */
+
+/* Form */
+.container-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section-form{
+  background-color: #fff;
+}
+
+.container-form{
+  padding: 0 3rem 3rem;
+}
+.container-form-left{
+  padding: 2rem
+}
+input, textarea{
+  padding: 1rem 0;
+  border: none;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  width: 100%;
+  outline: none;
+  margin: 1rem 0;
+}
+
+textarea{
+  height: 100px;
+}
+
+.container-form-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  
+}
+
+.container-form-right ul{
+display: flex;
+}
+
+.container-form-right li{
+  margin: 1rem ;
+}
+
+.container-form-right a{
+  color: rgb(53, 53, 53);
+  text-decoration: underline;
+  font-size: 2rem;
+  transition: all .2s ease-in-out;
+}
+
+.container-form-right a:hover{
+  color: #47525d;;
+}
+/* Footer */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links{
+  text-align: center;
+}
+
+.social-links a{
+  margin: 0.6rem;
+}
+
+.social-link{
+  font-size: 1.2rem;
+}
+
+
+@media (max-width: 900px) {
+  .laptop-img{
+    height: 200px;
+    width: 350px;
+  }
+
+  .left-section-projects{
+    margin: 0 1rem;
+  }
+
+  .phone-img{
+    height: 180px;
+    width: 87px;
+    right: 15%;
+    top: 12%
+  }
+
+  .right-section-projects{
+    display: flex;
+    align-items: center;
+  }
+  .project-container{
+    padding: 3rem 0.5rem
+  }
+  .project-container-left-sided{
+    padding: 3rem 2rem;
+  }
+    /* form */
+    .container-form{
+      grid-template-columns: 1fr;
+    }
+    .container-form-right{
+      height: 200px;
+    }
+}
+
+@media (max-width: 700px) {
+
+  .icons-container{
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .projects-container, .project-container{
+    padding: 0;
+  }
+  .project-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .laptop-img{
+    height: 270px;
+    width: 450px;
+    left: -30%;
+  }
+
+  .phone-img{
+    height: 245px;
+    width: 121px;
+    right: -30%;
+    top: 50px;
+  }
+
+  a{
+    padding: 0.4rem;
+    font-size: 0.7rem;
+  }
+
+  .right-section-projects{
+    width: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
 
 @media (max-width: 600px) {
   /* About */
@@ -135,5 +421,27 @@ ul{
   /* Skills */
   .icons-container{
     grid-template-columns: repeat(2, 1fr);
+  }
+  .icon-card{
+    width: 120px;
+  }
+  /* Projects */
+  .right-section-projects{
+    display: block;
+  }
+  .laptop-img{
+    height: 170px;
+    width: 280px;
+    left: 0
+  }
+  .phone-img{
+    height: 150px;
+    width: 70px;
+    left: 75%;
+    top: 30px;
+  }
+
+  .right-section-projects{
+    min-height: 200px;
   }
 }
