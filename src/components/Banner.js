@@ -57,7 +57,7 @@ function Banner() {
         </div>
 
       </div>
-      <div className="lang-container">
+      {/* <div className="lang-container">
         <span
           className="iconify"
           data-icon="twemoji:flag-for-flag-united-kingdom"
@@ -83,7 +83,7 @@ function Banner() {
           }}
         />
 
-      </div>
+      </div> */}
     </>
   );
 }

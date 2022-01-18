@@ -20,7 +20,6 @@ function Form() {
           title: 'Message Sent Successfully',
         });
       }, (error) => {
-        console.log(error.text);
         Swal.fire({
           icon: 'error',
           title: 'Ooops, something went wrong',
@@ -31,11 +30,11 @@ function Form() {
   };
 
   return (
-    <div className="section-form">
+    <div id="form" className="section-form">
       <h1>Contact</h1>
       <div className="container-form">
         <div className="container-form-left">
-          <p>Want to say hello?</p>
+          <p>Let&apos; s Work Together!</p>
           <form onSubmit={handleOnSubmit}>
             <div className="field">
               <label htmlFor="name">
@@ -62,7 +61,10 @@ function Form() {
           </form>
         </div>
         <div className="container-form-right">
-          <p> Living, learning, & leveling up.</p>
+          <div className="logo-container">
+            <p> Living, learning, & leveling up.</p>
+          </div>
+
           <ul>
             <li>
               <a href="https://github.com/ShoiraTa" target="_blank" rel="noreferrer">

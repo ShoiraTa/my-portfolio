@@ -78,7 +78,7 @@ nav {
 }
 
 .dark-theme h1, .dark-theme p{
-  color: #fff;
+  color: #fff!important;
 }
 
 .dark-theme .section-about{
@@ -90,11 +90,11 @@ nav {
 }
 
 .dark-theme  h2, .dark-theme  h1 {
-  color: #fff;
+  color: #fff!important;
 }
 
 .dark-theme  .left-section-projects li{
-  color: #fff;
+  color: #fff!important;
 }
 
 .dark-theme .section-experience{

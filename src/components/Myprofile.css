@@ -1,10 +1,11 @@
 h2{
   margin: 0;
+  font-family: var(--font-raleway);
 }
 /* About */
 .secton-aboutme{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 3fr;
   min-height: 500px;
 }
 
@@ -16,10 +17,18 @@ h2{
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
+  color: #353239;
+}
+.section-about{
+  padding-bottom: 2rem;
+}
+.section-about h1 {
+  padding-bottom: 0%;
 }
 
 .section-skills p{
   color: #fff;
+  font-family: var(--font-raleway);
 }
 
 .left-section{
@@ -29,19 +38,51 @@ h2{
   justify-content: center;
   display: inline-block;
   margin: 50px 45px 30px;
-  padding: 15px 15px 30px;
-  box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+  width: 60%;
+  margin: auto;
 }
 .image-container{
   background-image: url('../img/prof-pic.jpg');
   background-position: center;
   background-size: cover;
-  height: 280px;
+  height: 100%;
+  transition: all .2s ease-in-out;
 }
 
+.btn-contact{
+  width: 150px;
+  height: 45px;
+  font-size: 0.8rem;
+}
+
+
+.btn-contact:hover{
+background-color: #AE944F;
+}
+
+.btn-contact span{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image-container:hover{
+
+}
 .aboutme-desc{
   margin: 1rem;
   width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 25px;
+}
+
+.aboutme-desc h2{
+  margin-bottom: 2rem;
+} 
+.aboutme-desc p{
+  margin-bottom: 1rem;
 }
 
 .skills-icon{
@@ -82,7 +123,7 @@ h2{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0rem 0 2rem;
+  padding: 0rem 0 3rem;
 }
 
 .icons-container{
@@ -117,6 +158,13 @@ ul, p{
   margin: 0;
   padding: 0
 }
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 1056px) {
   .icons-container{
     grid-template-columns: repeat(6, 1fr);
@@ -142,6 +190,7 @@ ul, p{
    font-size: 2rem;
    margin-bottom: 1rem;
    text-transform: uppercase;
+   font-family: var(--font-raleway);
 }
 
 .project-container-left-sided{
@@ -228,7 +277,7 @@ a{
   width: 100%;
 }
 
-button{
+button, .btn{
   background-color: #AE944F;
   color: #fff;
   border: none;
@@ -236,12 +285,10 @@ button{
   margin: 2rem 0.5rem 0 0;
   cursor: pointer;
   transition: all .2s ease-in-out;
-  border: 1px solid #AE944F;
 }
 
 button:hover{
-  background-color: #ae954fa9;
-  border: 1px solid black;
+  background-color: #3b625f;
 }
 /* Experience */
 
@@ -250,21 +297,30 @@ button:hover{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .section-form{
-  background-color: #fff;
+  background-color: #3b625f;
+  height: 100vh;
+}
+.section-form h1,  .section-form p{
+  color: #fff;
+  font-family: var(--font-raleway);
 }
 
-.container-form{
-  padding: 0 3rem 3rem;
+.left-section-projects p, .aboutme-desc p{
+  color: #353239;
+  font-family: var(--font-raleway);
 }
+
+/* .container-form{
+  padding: 0 3rem 3rem;
+} */
 .container-form-left{
   padding: 2rem
 }
 input, textarea{
-  padding: 1rem 0;
+  padding: 1rem;
   border: none;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
   width: 100%;
   outline: none;
   margin: 1rem 0;
@@ -280,7 +336,7 @@ textarea{
   align-items: center;
   justify-content: center;
   height: 300px;
-  
+  padding: 2rem;
 }
 
 .container-form-right ul{
@@ -292,25 +348,13 @@ display: flex;
 }
 
 .container-form-right a{
-  color: rgb(53, 53, 53);
+  color: #fff;
   text-decoration: underline;
   font-size: 2rem;
   transition: all .2s ease-in-out;
 }
 
-.container-form-right a:hover{
-  color: #47525d;;
-}
 /* Footer */
-
-footer {
-  background-color: #000;
-  color: #fff;
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .social-links{
   text-align: center;
@@ -415,8 +459,10 @@ footer {
   .name h1{
     font-size: 1.7rem;
   }
+
   .title-styles, .title-styles span{
     font-size: 1rem;
+    color: #000!important;
   }
   /* Skills */
   .icons-container{
