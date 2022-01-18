@@ -424,6 +424,14 @@ display: flex;
     padding-bottom: 7%;
   }
 
+  .left-section-projects ul{
+    justify-content: center;
+  }
+
+  .left-section-projects, .section-projects h2{
+    text-align: center;
+  }
+
   .icons-container{
     grid-template-columns: repeat(4, 1fr);
   }
