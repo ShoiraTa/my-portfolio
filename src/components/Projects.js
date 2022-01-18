@@ -97,7 +97,7 @@ function Projects() {
           )}
           <div className="project-container">
             <div className="left-section-projects">
-              <h2>Expenses Traker</h2>
+              <h2>Expenses Tracker</h2>
               <p>Keep track of your expenses using the Expenses Tracker application. The applicaion allows users to insert expenses and filter them by year. Users can also analyse their monthly expenses by the graphical representaion.</p>
               <ul>
                 <li><SiJavascript className="icon-projects" /></li>

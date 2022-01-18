@@ -19,11 +19,22 @@ h2{
   text-align: center;
   color: #353239;
 }
+
+.aboutme-desc h2{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  line-height: 35px;
+}
+
 .section-about{
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 .section-about h1 {
   padding-bottom: 0%;
+}
+
+.section-skills p{
+  text-align: center;
 }
 
 .section-skills p{
@@ -78,9 +89,6 @@ background-color: #AE944F;
   line-height: 25px;
 }
 
-.aboutme-desc h2{
-  margin-bottom: 2rem;
-} 
 .aboutme-desc p{
   margin-bottom: 1rem;
 }
@@ -188,7 +196,7 @@ ul, p{
 
 .project-container h2{
    font-size: 2rem;
-   margin-bottom: 1rem;
+   margin-bottom: 1.5rem;
    text-transform: uppercase;
    font-family: var(--font-raleway);
 }
@@ -207,7 +215,7 @@ ul, p{
 
 .left-section-projects ul{
   display: flex;
-  margin: 1.5rem 0;
+  margin: 1.7rem 0;
 }
 
  .section-projects h2{
@@ -215,7 +223,7 @@ text-align: start;
 }
 
 .left-section-projects li{
-  padding: 0.2rem;
+  padding: 0.35rem;
 }
 
 .icon-projects{
@@ -300,7 +308,8 @@ button:hover{
 
 .section-form{
   background-color: #3b625f;
-  height: 100vh;
+  /* height: 100vh; */
+  padding-bottom: 4rem;
 }
 .section-form h1,  .section-form p{
   color: #fff;
@@ -310,6 +319,7 @@ button:hover{
 .left-section-projects p, .aboutme-desc p{
   color: #353239;
   font-family: var(--font-raleway);
+  line-height: 25px;
 }
 
 /* .container-form{
@@ -409,6 +419,10 @@ display: flex;
 }
 
 @media (max-width: 700px) {
+  .section-projects h1{
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
 
   .icons-container{
     grid-template-columns: repeat(4, 1fr);
@@ -450,17 +464,20 @@ display: flex;
   .project-container{
     margin-bottom: 5rem;
   }
-  .section-projects h1{
-    margin-bottom: 2rem;
-  }
 }
 
 
 @media (max-width: 600px) {
+
+.section-about h1, .section-skills h1, .section-projects h1, .section-experience h1, .section-form h1, .aboutme-desc h2{
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.section-experience h1{
+  padding-top: 10%;
+}
   /* About */
-  .section-about h1 {
-    padding: 2rem 0;
-  }
 
   .secton-aboutme{
     display: flex;
@@ -470,6 +487,10 @@ display: flex;
   }
   .name h1{
     font-size: 1.7rem;
+  }
+
+  .aboutme-desc h2{
+    text-align: center;
   }
 
   .title-styles, .title-styles span{
