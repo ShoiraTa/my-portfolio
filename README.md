@@ -6,7 +6,9 @@
 
  home page                                  |  details popup
 :------------------------------------------:|:---------------------------------------:
-![screenshot](./src/images/app_screenshot.png)  |  ![screenshot](./src/images/details.png)
+ ![mobile (3)](https://user-images.githubusercontent.com/77038610/149923440-ebb2ddcc-5c44-49ae-b264-9903f2c07527.png) |
+ [mobile (2)](https://user-images.githubusercontent.com/77038610/149923467-78a4c412-0d43-464f-871c-1e3237b22b9c.png)
+)
 
 This is a website that displaying an updated data about COVID cases in every country and in every region
 in the country if it was available.
