@@ -18,7 +18,7 @@ mobile  | desktop
 
 ## Live Demo
 
-[Live Demo Link](https://covid-cases-shahier.herokuapp.com/)
+[Live Demo Link](https://shoirashakirova.herokuapp.com/)
 
 ## Getting Started
 
