@@ -266,12 +266,12 @@ text-align: start;
   background-image: url('../img/pinch-mob.png');
 }
 
-.laptop-img-expenses{
-  background-image: url('../img/expences-desk.png');
+.cryptoDesktop{
+  background-image: url('../img/cryptoDesktop.png');
 }
 
-.phone-img-expenses{
-  background-image: url('../img/expences-mob.png');
+.cryptoMobile{
+  background-image: url('../img/cryptoMobile.png');
 }
 
 a{

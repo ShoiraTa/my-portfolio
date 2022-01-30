@@ -97,8 +97,8 @@ function Projects() {
           )}
           <div className="project-container">
             <div className="left-section-projects">
-              <h2>Expenses Tracker</h2>
-              <p>Keep track of your expenses using the Expenses Tracker application. The applicaion allows users to insert expenses and filter them by year. Users can also analyse their monthly expenses by the graphical representaion.</p>
+              <h2>Cryptoverse</h2>
+              <p>Platform for cryptocurrency Enthusiasts. Get the latest prices, statistics, links and news about all the cryptocurrencies on one platform. Check charts and filter the currencies!</p>
               <ul>
                 <li><SiJavascript className="icon-projects" /></li>
                 <li><SiReact className="icon-projects" /></li>
@@ -110,8 +110,8 @@ function Projects() {
             </div>
             <div className="right-section-projects">
               <a href="https://shoirata.github.io/Expenses_tracker/">
-                <div className="laptop-img laptop-img-expenses" />
-                <div className="phone-img phone-img-expenses" />
+                <div className="laptop-img cryptoDesktop" />
+                <div className="phone-img cryptoMobile" />
               </a>
             </div>
           </div>
