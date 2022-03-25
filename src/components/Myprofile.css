@@ -258,6 +258,16 @@ text-align: start;
   top: 40px;
 }
 
+.budget-tab{
+  left: 240px;
+  width: 200px;
+  background-image: url('../img/budget-tab.png');
+}
+
+.budgetMob{
+  background-image: url('../img/budgetMob.png');
+}
+
 .laptop-img-pinch{
   background-image: url('../img/pinch-desk.png');
 }
@@ -399,6 +409,17 @@ display: flex;
     top: 12%
   }
 
+  .budget-tab{
+  left: 130px;
+  width: 180px;
+  height: 270px;
+  background-image: url('../img/budget-tab.png');
+}
+
+.budgetMob{
+  top: 25%;
+}
+
   .right-section-projects{
     display: flex;
     align-items: center;
@@ -423,6 +444,8 @@ display: flex;
     padding-top: 7%;
     padding-bottom: 7%;
   }
+
+
 
   .left-section-projects ul{
     justify-content: center;
@@ -457,6 +480,19 @@ display: flex;
     right: -30%;
     top: 50px;
   }
+
+.budget-tab{
+  left: 30px;
+  width: 180px;
+  height: 270px;
+
+}
+
+.budgetMob{
+  right: 40px;
+  top: 20%;
+}
+
 
   a{
     padding: 0.4rem;
@@ -534,4 +570,15 @@ display: flex;
   .container-form-right li{
     margin: 0.2rem;
   }
+
+  .budget-tab{
+    left: 30px;
+    width: 150px;
+    height: 230px;
+}
+
+.budgetMob{
+  left: 50%;
+  top: 50%;
+}
 }
