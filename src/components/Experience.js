@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 // import Badge from 'react-bootstrap/Badge';
 import { MdWork } from 'react-icons/md';
@@ -19,7 +16,22 @@ function Experience() {
               className="vertical-timeline-element--work"
               contentStyle={{ background: '#FFF', color: 'black' }}
               contentArrowStyle={{ borderRight: '7px solid  #FFF' }}
-              date="2021 - present"
+              date="Aug 2022 - June 2023"
+              iconStyle={{ background: 'rgb(174, 148, 79)', color: '#fff' }}
+              icon={<MdWork />}
+            >
+              <h3 className="vertical-timeline-element-title">Ruby on Rails developer</h3>
+              <h4 className="vertical-timeline-element-subtitle">Monterail</h4>
+              <p>
+                Work closely with the team to help our clients launch highly functional, often complex Shopify stores.
+              </p>
+              <p>Optimize and redesign stores for established brands.</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: '#FFF', color: 'black' }}
+              contentArrowStyle={{ borderRight: '7px solid  #FFF' }}
+              date="Nov 2021 - Nov 2022 "
               iconStyle={{ background: 'rgb(174, 148, 79)', color: '#fff' }}
               icon={<MdWork />}
             >
@@ -27,17 +39,19 @@ function Experience() {
               <h4 className="vertical-timeline-element-subtitle">Microverse inc.</h4>
               <p>
                 {' '}
-                Performed 100s of code reviews in HTML, Ruby & Javascript based projects for over 50+ junior developers and ensured best coding practices.
+                Performed 100s of code reviews in HTML, Ruby & Javascript based projects for over 50+ junior developers
+                and ensured best coding practices.
               </p>
               <p>
-                Provide specialized technical advice and guidance to multiple junior developers over 1:1 video calls and chat.
+                Provide specialized technical advice and guidance to multiple junior developers over 1:1 video calls and
+                chat.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: '#FFF', color: 'black' }}
               contentArrowStyle={{ borderRight: '7px solid  #FFF' }}
-              date="2021"
+              date="May 2021 - Aug 2021"
               iconStyle={{ background: 'rgb(174, 148, 79)', color: '#fff' }}
               icon={<MdWork />}
             >

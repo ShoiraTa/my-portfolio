@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-  SiTelegram, SiAngellist, SiLinkedin, SiGithub, SiGmail,
-} from 'react-icons/si';
+import { SiTelegram, SiAngellist, SiLinkedin, SiGithub } from 'react-icons/si';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 
@@ -12,20 +10,22 @@ const USER_ID = 'user_Mpq5XwjlGhSLOWcLZU7aE';
 function Form() {
   const handleOnSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-      .then((result) => {
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
+      (result) => {
         console.log(result.text);
         Swal.fire({
           icon: 'success',
           title: 'Message Sent Successfully',
         });
-      }, (error) => {
+      },
+      (error) => {
         Swal.fire({
           icon: 'error',
           title: 'Ooops, something went wrong',
           text: error.text,
         });
-      });
+      }
+    );
     e.target.reset();
   };
 
@@ -39,19 +39,16 @@ function Form() {
             <div className="field">
               <label htmlFor="name">
                 <input type="text" name="name" id="name" required="required" placeholder="Name*" />
-
               </label>
             </div>
             <div className="field">
               <label htmlFor="email">
                 <input type="email" name="_replyto" id="email" required="required" placeholder="Email*" />
-
               </label>
             </div>
             <div className="field">
               <label htmlFor="message" className="message">
                 <textarea type="textbox" name="message" id="message" required="required" placeholder="Message*" />
-
               </label>
             </div>
             <button type="submit" className="btn" value="send">
@@ -64,7 +61,6 @@ function Form() {
           <div className="logo-container">
             <p> Living, learning, & leveling up.</p>
           </div>
-
           <ul>
             <li>
               <a href="https://github.com/ShoiraTa" target="_blank" rel="noreferrer">
@@ -86,13 +82,7 @@ function Form() {
                 <SiTelegram />
               </a>
             </li>
-            <li>
-              <a type="submit" href="mailto:shoira.shakirovna@gmail.com" target="_blank" rel="noreferrer">
-                <SiGmail />
-              </a>
-            </li>
           </ul>
-
         </div>
       </div>
     </div>

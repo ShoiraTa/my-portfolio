@@ -4,7 +4,7 @@
     "es6": true,
     "jest": true
   },
-  
+
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -17,6 +17,13 @@
   "plugins": ["react"],
   "rules": {
     "max-len": "off",
+    "import/no-extraneous-dependencies": "off",
+    "arrow-body-style": "off",
+    "no-else-return": "off",
+    "comma-dangle": "off",
+    "no-plusplus": "off",
+    "no-await-in-loop": "off",
+    "object-curly-newline": "off",
     // "vue/max-len": [
     //   "error",
     //   {
@@ -35,8 +42,5 @@
     "vue/max-attributes-per-line": "off"
   },
   // "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
-  "ignorePatterns": [
-    "dist/",
-    "build/"
-  ]
+  "ignorePatterns": ["dist/", "build/"]
 }

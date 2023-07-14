@@ -38,7 +38,7 @@ function Projects() {
         <div className="projects-container">
           <div className="project-container">
             <div className="left-section-projects">
-              <h2>Cryptoverse</h2>
+              <h2>Olam Report</h2>
               <p>
                 Platform for cryptocurrency Enthusiasts. Get the latest prices, statistics, links and news about all the
                 cryptocurrencies on one platform. Check charts and filter the currencies!
@@ -65,7 +65,7 @@ function Projects() {
               </ul>
             </div>
             <div className="right-section-projects">
-              <a href="https://shoirata.github.io/Expenses_tracker/">
+              <a href="https://olam-report.fly.dev/" target="_blank" rel="noopener noreferrer">
                 <div className="laptop-img cryptoDesktop" />
                 <div className="phone-img cryptoMobile" />
               </a>

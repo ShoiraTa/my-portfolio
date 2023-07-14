@@ -1,7 +1,7 @@
 import React from 'react';
 import './Banner.css';
 // import { useSelector } from 'react-redux';
-import Typical from 'react-typical';
+import TypingAnimation from './TypingAnimation';
 import SwitchReact from './SwitchReact';
 import coding from '../img/coding.svg';
 import store from '../redux/store';
@@ -12,6 +12,9 @@ function Banner() {
     document.body.className = state.theme;
   });
 
+  const phrases = ['RUBY ON RAILS DEVELOPER 💎 ', 'FULL STACK DEVELOPER 💻', 'TRAVELER '];
+  const typingSpeed = 100;
+  const deletingSpeed = 100;
   return (
     <>
       <div className="main-container">
@@ -42,11 +45,7 @@ function Banner() {
           <div className="title-container">
             <p className="title-styles">
               I&apos;M A
-              <Typical
-                loop={Infinity}
-                wrapper="span"
-                steps={['FRONT END DEVELOPER ⚛️ ', 2500, 'FULL STACK DEVELOPER 💻', 2500, 'TRAVELER ', 2500]}
-              />
+              <TypingAnimation phrases={phrases} typingSpeed={typingSpeed} deletingSpeed={deletingSpeed} />
             </p>
           </div>
           <SwitchReact />
